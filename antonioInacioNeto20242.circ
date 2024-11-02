@@ -770,10 +770,10 @@
     <comp lib="1" loc="(40,170)" name="XOR Gate">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="8" loc="(568,83)" name="Text">
+    <comp lib="8" loc="(565,80)" name="Text">
       <a name="text" val="S = (A ⊕ B) ⊕ (Cin)"/>
     </comp>
-    <comp lib="8" loc="(668,103)" name="Text">
+    <comp lib="8" loc="(665,100)" name="Text">
       <a name="text" val="Cout = ((M ⊕ A) . B) + ((M ⊕ A) . Cin) + (B . Cin)"/>
     </comp>
     <wire from="(100,110)" to="(100,240)"/>
@@ -849,10 +849,10 @@
     <comp lib="1" loc="(260,280)" name="OR Gate">
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="8" loc="(524,78)" name="Text">
+    <comp lib="8" loc="(520,75)" name="Text">
       <a name="text" val="S = (A ⊕ B) ⊕ Cin"/>
     </comp>
-    <comp lib="8" loc="(589,98)" name="Text">
+    <comp lib="8" loc="(585,95)" name="Text">
       <a name="text" val="Cout = (A . B) + (A . Cin) + (B . Cin)"/>
     </comp>
     <wire from="(100,130)" to="(100,300)"/>
@@ -928,10 +928,10 @@
     <comp lib="1" loc="(260,280)" name="OR Gate">
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="8" loc="(422,55)" name="Text">
+    <comp lib="8" loc="(420,55)" name="Text">
       <a name="text" val="S = (A ⊕ B) ⊕ Cin"/>
     </comp>
-    <comp lib="8" loc="(487,75)" name="Text">
+    <comp lib="8" loc="(485,75)" name="Text">
       <a name="text" val="Cout = (A' . B) + (A' . Cin) + (B . Cin)"/>
     </comp>
     <wire from="(100,130)" to="(100,300)"/>
@@ -1041,10 +1041,10 @@
     <comp lib="1" loc="(110,200)" name="NOT Gate"/>
     <comp lib="1" loc="(170,110)" name="XOR Gate"/>
     <comp lib="1" loc="(170,220)" name="AND Gate"/>
-    <comp lib="8" loc="(465,109)" name="Text">
+    <comp lib="8" loc="(465,105)" name="Text">
       <a name="text" val="S = (A ⊕ B)"/>
     </comp>
-    <comp lib="8" loc="(475,124)" name="Text">
+    <comp lib="8" loc="(475,120)" name="Text">
       <a name="text" val="Cout = (A' . B)"/>
     </comp>
     <wire from="(110,200)" to="(120,200)"/>
@@ -1712,10 +1712,10 @@
       <a name="facing" val="south"/>
       <a name="label" val="A"/>
     </comp>
-    <comp lib="8" loc="(505,39)" name="Text">
+    <comp lib="8" loc="(505,35)" name="Text">
       <a name="text" val="S = (A ⊕ B) ⊕ (Cin)"/>
     </comp>
-    <comp lib="8" loc="(605,59)" name="Text">
+    <comp lib="8" loc="(605,55)" name="Text">
       <a name="text" val="Cout = ((M ⊕ A) . B) + ((M ⊕ A) . Cin) + (B . Cin)"/>
     </comp>
     <comp loc="(200,80)" name="xorNAND"/>
@@ -1817,10 +1817,10 @@
       <a name="facing" val="south"/>
       <a name="label" val="B"/>
     </comp>
-    <comp lib="8" loc="(413,42)" name="Text">
+    <comp lib="8" loc="(410,40)" name="Text">
       <a name="text" val="S = (A ⊕ B) ⊕ Cin"/>
     </comp>
-    <comp lib="8" loc="(478,62)" name="Text">
+    <comp lib="8" loc="(475,60)" name="Text">
       <a name="text" val="Cout = (A . B) + (A . Cin) + (B . Cin)"/>
     </comp>
     <comp loc="(160,80)" name="xorNAND"/>
@@ -1907,10 +1907,10 @@
       <a name="facing" val="south"/>
       <a name="label" val="B"/>
     </comp>
-    <comp lib="8" loc="(406,34)" name="Text">
+    <comp lib="8" loc="(405,30)" name="Text">
       <a name="text" val="S = (A ⊕ B) ⊕ Cin"/>
     </comp>
-    <comp lib="8" loc="(471,54)" name="Text">
+    <comp lib="8" loc="(470,50)" name="Text">
       <a name="text" val="Cout = (A' . B) + (A' . Cin) + (B . Cin)"/>
     </comp>
     <comp loc="(160,80)" name="xorNAND"/>
@@ -1996,10 +1996,10 @@
       <a name="facing" val="south"/>
       <a name="label" val="B"/>
     </comp>
-    <comp lib="8" loc="(260,38)" name="Text">
+    <comp lib="8" loc="(260,35)" name="Text">
       <a name="text" val="S = A ⊕ B"/>
     </comp>
-    <comp lib="8" loc="(270,58)" name="Text">
+    <comp lib="8" loc="(270,55)" name="Text">
       <a name="text" val="Cout = (A . B)"/>
     </comp>
     <comp loc="(140,110)" name="andNAND"/>
@@ -2043,10 +2043,10 @@
       <a name="facing" val="south"/>
       <a name="label" val="B"/>
     </comp>
-    <comp lib="8" loc="(291,25)" name="Text">
+    <comp lib="8" loc="(290,25)" name="Text">
       <a name="text" val="S = (A ⊕ B)"/>
     </comp>
-    <comp lib="8" loc="(301,40)" name="Text">
+    <comp lib="8" loc="(300,40)" name="Text">
       <a name="text" val="Cout = (A' . B)"/>
     </comp>
     <comp loc="(110,140)" name="notNAND"/>
