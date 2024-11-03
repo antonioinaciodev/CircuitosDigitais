@@ -58,65 +58,59 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp loc="(1080,160)" name="Adder4BITSNAND"/>
-    <comp loc="(1190,20)" name="HalfAdderSubtractorVHDL">
+    <comp loc="(1080,160)" name="Adder4bits_nand"/>
+    <comp loc="(1190,20)" name="HalfAdderSubtractor_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp loc="(120,160)" name="xorNAND"/>
-    <comp loc="(1200,400)" name="TwoComplementSubtractor4BITS"/>
+    <comp loc="(120,160)" name="xor_nand"/>
+    <comp loc="(1200,400)" name="TwoComplementSubtractor4bits"/>
     <comp loc="(130,400)" name="FullSubtractor"/>
-    <comp loc="(1320,160)" name="TwoComplementSubtractor4BITSNAND"/>
-    <comp loc="(1430,20)" name="FullAdderVHDL">
+    <comp loc="(1320,160)" name="TwoComplementSubtractor4bits_nand"/>
+    <comp loc="(1430,20)" name="FullAdder_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp loc="(160,160)" name="HalfSubtractorNAND"/>
-    <comp loc="(1670,20)" name="FullSubtractorVHDL">
+    <comp loc="(160,160)" name="HalfSubtractor_nand"/>
+    <comp loc="(1670,20)" name="FullSubtractor_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
     <comp loc="(180,400)" name="FullAdder"/>
-    <comp loc="(1910,20)" name="HalfAdderVHDL">
+    <comp loc="(1910,20)" name="HalfAdder_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp loc="(200,160)" name="HalfAdderNAND"/>
-    <comp loc="(2150,20)" name="HalfSubtractorVHDL">
+    <comp loc="(200,160)" name="HalfAdder_nand"/>
+    <comp loc="(2150,20)" name="HalfSubtractor_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp loc="(230,20)" name="TwoComplementSubtractor4BITSVHDL">
+    <comp loc="(230,20)" name="TwoComplementSubtractor_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
     <comp loc="(240,400)" name="HalfAdderSubtractor"/>
-    <comp loc="(250,160)" name="FullSubtractorNAND"/>
-    <comp loc="(300,160)" name="FullAdderNAND"/>
-    <comp loc="(360,160)" name="HalfAdderSubtractorNAND"/>
-    <comp loc="(40,160)" name="andNAND"/>
-    <comp loc="(40,210)" name="notNAND"/>
+    <comp loc="(250,160)" name="FullSubtractor_nand"/>
+    <comp loc="(300,160)" name="FullAdder_nand"/>
+    <comp loc="(360,160)" name="HalfAdderSubtractor_nand"/>
+    <comp loc="(40,160)" name="and_nand"/>
+    <comp loc="(40,210)" name="not_nand"/>
     <comp loc="(40,400)" name="HalfSubtractor"/>
-    <comp loc="(470,20)" name="AdderSubtractor4BITSVHDL">
+    <comp loc="(470,20)" name="AdderSubtractor4bits_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp loc="(480,400)" name="AdderSubtractor4BITS"/>
-    <comp loc="(600,160)" name="AdderSubtractor4BITSNAND"/>
-    <comp loc="(710,20)" name="Adder4BITSVHDL">
+    <comp loc="(480,400)" name="AdderSubtractor4bits"/>
+    <comp loc="(600,160)" name="AdderSubtractor4bits_nand"/>
+    <comp loc="(710,20)" name="Adder4bits_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp loc="(720,400)" name="Subtractor4BITS"/>
-    <comp loc="(80,160)" name="orNAND"/>
+    <comp loc="(720,400)" name="Subtractor4bits"/>
+    <comp loc="(80,160)" name="or_nand"/>
     <comp loc="(80,400)" name="HalfAdder"/>
-    <comp loc="(840,160)" name="Subtractor4BITSNAND"/>
-    <comp loc="(950,20)" name="Subtractor4BITSVHDL">
+    <comp loc="(840,160)" name="Subtractor4bits_nand"/>
+    <comp loc="(950,20)" name="Sutractor4bits_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp loc="(960,400)" name="Adder4BITS"/>
+    <comp loc="(960,400)" name="Adder4bits"/>
   </circuit>
-  <circuit name="IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII">
+  <circuit name="TwoComplementSubtractor4bits">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="1.0"/>
-  </circuit>
-  <circuit name="TwoComplementSubtractor4BITS">
-    <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="TwoComplementSubtractor4BITS"/>
+    <a name="circuit" val="TwoComplementSubtractor4bits"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(100,60)" name="Pin">
@@ -271,9 +265,9 @@
     <wire from="(80,320)" to="(80,400)"/>
     <wire from="(90,330)" to="(90,390)"/>
   </circuit>
-  <circuit name="Adder4BITS">
+  <circuit name="Adder4bits">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="Adder4BITS"/>
+    <a name="circuit" val="Adder4bits"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(100,60)" name="Pin">
@@ -417,9 +411,9 @@
     <wire from="(80,320)" to="(80,400)"/>
     <wire from="(90,330)" to="(90,390)"/>
   </circuit>
-  <circuit name="Subtractor4BITS">
+  <circuit name="Subtractor4bits">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="Subtractor4BITS"/>
+    <a name="circuit" val="Subtractor4bits"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(100,60)" name="Pin">
@@ -563,9 +557,9 @@
     <wire from="(80,320)" to="(80,400)"/>
     <wire from="(90,330)" to="(90,390)"/>
   </circuit>
-  <circuit name="AdderSubtractor4BITS">
+  <circuit name="AdderSubtractor4bits">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="AdderSubtractor4BITS"/>
+    <a name="circuit" val="AdderSubtractor4bits"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(100,60)" name="Pin">
@@ -1061,15 +1055,9 @@
     <wire from="(60,240)" to="(60,260)"/>
     <wire from="(60,60)" to="(60,130)"/>
   </circuit>
-  <circuit name="IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII">
+  <circuit name="TwoComplementSubtractor4bits_nand">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="1.0"/>
-  </circuit>
-  <circuit name="TwoComplementSubtractor4BITSNAND">
-    <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="TwoComplementSubtractor4BITSNAND"/>
+    <a name="circuit" val="TwoComplementSubtractor4bits_nand"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(100,60)" name="Pin">
@@ -1157,10 +1145,10 @@
     <comp lib="1" loc="(320,90)" name="NOT Gate">
       <a name="facing" val="south"/>
     </comp>
-    <comp loc="(150,320)" name="FullAdderNAND"/>
-    <comp loc="(240,320)" name="FullAdderNAND"/>
-    <comp loc="(320,320)" name="FullAdderNAND"/>
-    <comp loc="(70,320)" name="FullAdderNAND"/>
+    <comp loc="(150,320)" name="FullAdder_nand"/>
+    <comp loc="(240,320)" name="FullAdder_nand"/>
+    <comp loc="(320,320)" name="FullAdder_nand"/>
+    <comp loc="(70,320)" name="FullAdder_nand"/>
     <wire from="(100,260)" to="(210,260)"/>
     <wire from="(100,300)" to="(100,350)"/>
     <wire from="(100,350)" to="(170,350)"/>
@@ -1224,9 +1212,9 @@
     <wire from="(80,320)" to="(80,400)"/>
     <wire from="(90,330)" to="(90,390)"/>
   </circuit>
-  <circuit name="Adder4BITSNAND">
+  <circuit name="Adder4bits_nand">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="Adder4BITSNAND"/>
+    <a name="circuit" val="Adder4bits_nand"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(100,60)" name="Pin">
@@ -1303,10 +1291,10 @@
       <a name="label" val="S3"/>
       <a name="output" val="true"/>
     </comp>
-    <comp loc="(150,320)" name="FullAdderNAND"/>
-    <comp loc="(240,320)" name="FullAdderNAND"/>
-    <comp loc="(320,320)" name="FullAdderNAND"/>
-    <comp loc="(70,320)" name="FullAdderNAND"/>
+    <comp loc="(150,320)" name="FullAdder_nand"/>
+    <comp loc="(240,320)" name="FullAdder_nand"/>
+    <comp loc="(320,320)" name="FullAdder_nand"/>
+    <comp loc="(70,320)" name="FullAdder_nand"/>
     <wire from="(100,260)" to="(210,260)"/>
     <wire from="(100,300)" to="(100,350)"/>
     <wire from="(100,350)" to="(170,350)"/>
@@ -1370,9 +1358,9 @@
     <wire from="(80,320)" to="(80,400)"/>
     <wire from="(90,330)" to="(90,390)"/>
   </circuit>
-  <circuit name="Subtractor4BITSNAND">
+  <circuit name="Subtractor4bits_nand">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="Subtractor4BITSNAND"/>
+    <a name="circuit" val="Subtractor4bits_nand"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(100,60)" name="Pin">
@@ -1449,10 +1437,10 @@
       <a name="label" val="S3"/>
       <a name="output" val="true"/>
     </comp>
-    <comp loc="(150,320)" name="FullSubtractorNAND"/>
-    <comp loc="(240,320)" name="FullSubtractorNAND"/>
-    <comp loc="(320,320)" name="FullSubtractorNAND"/>
-    <comp loc="(70,320)" name="FullSubtractorNAND"/>
+    <comp loc="(150,320)" name="FullSubtractor_nand"/>
+    <comp loc="(240,320)" name="FullSubtractor_nand"/>
+    <comp loc="(320,320)" name="FullSubtractor_nand"/>
+    <comp loc="(70,320)" name="FullSubtractor_nand"/>
     <wire from="(100,260)" to="(210,260)"/>
     <wire from="(100,300)" to="(100,350)"/>
     <wire from="(100,350)" to="(170,350)"/>
@@ -1516,9 +1504,9 @@
     <wire from="(80,320)" to="(80,400)"/>
     <wire from="(90,330)" to="(90,390)"/>
   </circuit>
-  <circuit name="AdderSubtractor4BITSNAND">
+  <circuit name="AdderSubtractor4bits_nand">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="AdderSubtractor4BITSNAND"/>
+    <a name="circuit" val="AdderSubtractor4bits_nand"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(100,60)" name="Pin">
@@ -1600,10 +1588,10 @@
       <a name="label" val="S3"/>
       <a name="output" val="true"/>
     </comp>
-    <comp loc="(150,320)" name="HalfAdderSubtractorNAND"/>
-    <comp loc="(240,320)" name="HalfAdderSubtractorNAND"/>
-    <comp loc="(320,320)" name="HalfAdderSubtractorNAND"/>
-    <comp loc="(70,320)" name="HalfAdderSubtractorNAND"/>
+    <comp loc="(150,320)" name="HalfAdderSubtractor_nand"/>
+    <comp loc="(240,320)" name="HalfAdderSubtractor_nand"/>
+    <comp loc="(320,320)" name="HalfAdderSubtractor_nand"/>
+    <comp loc="(70,320)" name="HalfAdderSubtractor_nand"/>
     <wire from="(100,260)" to="(210,260)"/>
     <wire from="(100,300)" to="(100,350)"/>
     <wire from="(100,350)" to="(170,350)"/>
@@ -1676,8 +1664,8 @@
     <wire from="(80,320)" to="(80,400)"/>
     <wire from="(90,330)" to="(90,390)"/>
   </circuit>
-  <circuit name="HalfAdderSubtractorNAND">
-    <a name="circuit" val="HalfAdderSubtractorNAND"/>
+  <circuit name="HalfAdderSubtractor_nand">
+    <a name="circuit" val="HalfAdderSubtractor_nand"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(100,60)" name="Pin">
@@ -1718,14 +1706,14 @@
     <comp lib="8" loc="(605,55)" name="Text">
       <a name="text" val="Cout = ((M ⊕ A) . B) + ((M ⊕ A) . Cin) + (B . Cin)"/>
     </comp>
-    <comp loc="(200,80)" name="xorNAND"/>
-    <comp loc="(210,220)" name="andNAND"/>
-    <comp loc="(210,280)" name="andNAND"/>
-    <comp loc="(210,340)" name="andNAND"/>
-    <comp loc="(250,90)" name="xorNAND"/>
-    <comp loc="(280,270)" name="orNAND"/>
-    <comp loc="(330,290)" name="orNAND"/>
-    <comp loc="(60,140)" name="xorNAND">
+    <comp loc="(200,80)" name="xor_nand"/>
+    <comp loc="(210,220)" name="and_nand"/>
+    <comp loc="(210,280)" name="and_nand"/>
+    <comp loc="(210,340)" name="and_nand"/>
+    <comp loc="(250,90)" name="xor_nand"/>
+    <comp loc="(280,270)" name="or_nand"/>
+    <comp loc="(330,290)" name="or_nand"/>
+    <comp loc="(60,140)" name="xor_nand">
       <a name="facing" val="south"/>
     </comp>
     <wire from="(100,100)" to="(100,240)"/>
@@ -1786,8 +1774,8 @@
     <wire from="(60,70)" to="(160,70)"/>
     <wire from="(60,70)" to="(60,110)"/>
   </circuit>
-  <circuit name="FullAdderNAND">
-    <a name="circuit" val="FullAdderNAND"/>
+  <circuit name="FullAdder_nand">
+    <a name="circuit" val="FullAdder_nand"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(100,60)" name="Pin">
@@ -1823,13 +1811,13 @@
     <comp lib="8" loc="(475,60)" name="Text">
       <a name="text" val="Cout = (A . B) + (A . Cin) + (B . Cin)"/>
     </comp>
-    <comp loc="(160,80)" name="xorNAND"/>
-    <comp loc="(170,220)" name="andNAND"/>
-    <comp loc="(170,280)" name="andNAND"/>
-    <comp loc="(170,340)" name="andNAND"/>
-    <comp loc="(230,90)" name="xorNAND"/>
-    <comp loc="(250,260)" name="orNAND"/>
-    <comp loc="(300,280)" name="orNAND"/>
+    <comp loc="(160,80)" name="xor_nand"/>
+    <comp loc="(170,220)" name="and_nand"/>
+    <comp loc="(170,280)" name="and_nand"/>
+    <comp loc="(170,340)" name="and_nand"/>
+    <comp loc="(230,90)" name="xor_nand"/>
+    <comp loc="(250,260)" name="or_nand"/>
+    <comp loc="(300,280)" name="or_nand"/>
     <wire from="(100,110)" to="(100,290)"/>
     <wire from="(100,110)" to="(180,110)"/>
     <wire from="(100,290)" to="(100,350)"/>
@@ -1876,8 +1864,8 @@
     <wire from="(60,340)" to="(60,450)"/>
     <wire from="(60,60)" to="(60,100)"/>
   </circuit>
-  <circuit name="FullSubtractorNAND">
-    <a name="circuit" val="FullSubtractorNAND"/>
+  <circuit name="FullSubtractor_nand">
+    <a name="circuit" val="FullSubtractor_nand"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(100,60)" name="Pin">
@@ -1913,16 +1901,16 @@
     <comp lib="8" loc="(470,50)" name="Text">
       <a name="text" val="Cout = (A' . B) + (A' . Cin) + (B . Cin)"/>
     </comp>
-    <comp loc="(160,80)" name="xorNAND"/>
-    <comp loc="(170,220)" name="andNAND"/>
-    <comp loc="(170,280)" name="andNAND"/>
-    <comp loc="(170,340)" name="andNAND"/>
-    <comp loc="(20,120)" name="notNAND">
+    <comp loc="(160,80)" name="xor_nand"/>
+    <comp loc="(170,220)" name="and_nand"/>
+    <comp loc="(170,280)" name="and_nand"/>
+    <comp loc="(170,340)" name="and_nand"/>
+    <comp loc="(20,120)" name="not_nand">
       <a name="facing" val="south"/>
     </comp>
-    <comp loc="(230,90)" name="xorNAND"/>
-    <comp loc="(250,260)" name="orNAND"/>
-    <comp loc="(300,280)" name="orNAND"/>
+    <comp loc="(230,90)" name="xor_nand"/>
+    <comp loc="(250,260)" name="or_nand"/>
+    <comp loc="(300,280)" name="or_nand"/>
     <wire from="(100,110)" to="(100,290)"/>
     <wire from="(100,110)" to="(180,110)"/>
     <wire from="(100,290)" to="(100,350)"/>
@@ -1970,8 +1958,8 @@
     <wire from="(60,340)" to="(60,450)"/>
     <wire from="(60,60)" to="(60,100)"/>
   </circuit>
-  <circuit name="HalfAdderNAND">
-    <a name="circuit" val="HalfAdderNAND"/>
+  <circuit name="HalfAdder_nand">
+    <a name="circuit" val="HalfAdder_nand"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(150,110)" name="Pin">
@@ -2002,8 +1990,8 @@
     <comp lib="8" loc="(270,55)" name="Text">
       <a name="text" val="Cout = (A . B)"/>
     </comp>
-    <comp loc="(140,110)" name="andNAND"/>
-    <comp loc="(140,70)" name="xorNAND"/>
+    <comp loc="(140,110)" name="and_nand"/>
+    <comp loc="(140,70)" name="xor_nand"/>
     <wire from="(140,110)" to="(150,110)"/>
     <wire from="(140,70)" to="(150,70)"/>
     <wire from="(20,110)" to="(110,110)"/>
@@ -2017,8 +2005,8 @@
     <wire from="(60,80)" to="(110,80)"/>
     <wire from="(60,80)" to="(60,120)"/>
   </circuit>
-  <circuit name="HalfSubtractorNAND">
-    <a name="circuit" val="HalfSubtractorNAND"/>
+  <circuit name="HalfSubtractor_nand">
+    <a name="circuit" val="HalfSubtractor_nand"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(160,150)" name="Pin">
@@ -2049,9 +2037,9 @@
     <comp lib="8" loc="(300,40)" name="Text">
       <a name="text" val="Cout = (A' . B)"/>
     </comp>
-    <comp loc="(110,140)" name="notNAND"/>
-    <comp loc="(110,70)" name="xorNAND"/>
-    <comp loc="(160,150)" name="andNAND"/>
+    <comp loc="(110,140)" name="not_nand"/>
+    <comp loc="(110,70)" name="xor_nand"/>
+    <comp loc="(160,150)" name="and_nand"/>
     <wire from="(110,140)" to="(120,140)"/>
     <wire from="(110,70)" to="(160,70)"/>
     <wire from="(120,140)" to="(120,150)"/>
@@ -2069,8 +2057,8 @@
     <wire from="(60,80)" to="(60,170)"/>
     <wire from="(60,80)" to="(80,80)"/>
   </circuit>
-  <circuit name="xorNAND">
-    <a name="circuit" val="xorNAND"/>
+  <circuit name="xor_nand">
+    <a name="circuit" val="xor_nand"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(300,80)" name="Pin">
@@ -2087,11 +2075,11 @@
       <a name="appearance" val="NewPins"/>
       <a name="label" val="B"/>
     </comp>
-    <comp loc="(140,160)" name="notNAND"/>
-    <comp loc="(140,20)" name="notNAND"/>
-    <comp loc="(220,110)" name="andNAND"/>
-    <comp loc="(220,50)" name="andNAND"/>
-    <comp loc="(300,80)" name="orNAND"/>
+    <comp loc="(140,160)" name="not_nand"/>
+    <comp loc="(140,20)" name="not_nand"/>
+    <comp loc="(220,110)" name="and_nand"/>
+    <comp loc="(220,50)" name="and_nand"/>
+    <comp loc="(300,80)" name="or_nand"/>
     <wire from="(140,160)" to="(180,160)"/>
     <wire from="(140,20)" to="(180,20)"/>
     <wire from="(180,120)" to="(180,160)"/>
@@ -2113,8 +2101,8 @@
     <wire from="(90,60)" to="(190,60)"/>
     <wire from="(90,60)" to="(90,160)"/>
   </circuit>
-  <circuit name="orNAND">
-    <a name="circuit" val="orNAND"/>
+  <circuit name="or_nand">
+    <a name="circuit" val="or_nand"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(190,40)" name="Pin">
@@ -2132,15 +2120,15 @@
       <a name="label" val="B"/>
     </comp>
     <comp lib="1" loc="(190,40)" name="NAND Gate"/>
-    <comp loc="(110,20)" name="notNAND"/>
-    <comp loc="(110,60)" name="notNAND"/>
+    <comp loc="(110,20)" name="not_nand"/>
+    <comp loc="(110,60)" name="not_nand"/>
     <wire from="(110,20)" to="(130,20)"/>
     <wire from="(110,60)" to="(130,60)"/>
     <wire from="(60,20)" to="(80,20)"/>
     <wire from="(60,60)" to="(80,60)"/>
   </circuit>
-  <circuit name="andNAND">
-    <a name="circuit" val="andNAND"/>
+  <circuit name="and_nand">
+    <a name="circuit" val="and_nand"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(180,40)" name="Pin">
@@ -2158,13 +2146,13 @@
       <a name="label" val="B"/>
     </comp>
     <comp lib="1" loc="(140,40)" name="NAND Gate"/>
-    <comp loc="(170,40)" name="notNAND"/>
+    <comp loc="(170,40)" name="not_nand"/>
     <wire from="(170,40)" to="(180,40)"/>
     <wire from="(60,20)" to="(80,20)"/>
     <wire from="(60,60)" to="(80,60)"/>
   </circuit>
-  <circuit name="notNAND">
-    <a name="circuit" val="notNAND"/>
+  <circuit name="not_nand">
+    <a name="circuit" val="not_nand"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(220,40)" name="Pin">
@@ -2184,58 +2172,46 @@
     <wire from="(90,20)" to="(90,60)"/>
     <wire from="(90,60)" to="(130,60)"/>
   </circuit>
-  <circuit name="IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII">
-    <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="1.0"/>
-  </circuit>
-  <circuit name="IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII">
-    <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="1.0"/>
-  </circuit>
-  <vhdl name="HalfSubtractorVHDL">LIBRARY ieee;
+  <vhdl name="HalfSubtractor_vhdl">LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
-ENTITY HalfSubtractorVHDL IS
+ENTITY HalfSubtractor_vhdl IS
   PORT (
     A      : IN  std_logic;
     B      : IN  std_logic;
     S      : OUT std_logic;
     Cout   : OUT std_logic
   );
-END HalfSubtractorVHDL;
+END HalfSubtractor_vhdl;
 
-ARCHITECTURE TypeArchitecture OF HalfSubtractorVHDL IS
+ARCHITECTURE TypeArchitecture OF HalfSubtractor_vhdl IS
 BEGIN
   S &lt;= A XOR B;
   Cout &lt;= NOT A AND B;
 END TypeArchitecture;
 </vhdl>
-  <vhdl name="HalfAdderVHDL">LIBRARY ieee;
+  <vhdl name="HalfAdder_vhdl">LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
-ENTITY HalfAdderVHDL IS
+ENTITY HalfAdder_vhdl IS
   PORT (
     A      : IN  std_logic;
     B      : IN  std_logic;
     S      : OUT std_logic;
     Cout   : OUT std_logic
   );
-END HalfAdderVHDL;
+END HalfAdder_vhdl;
 
-ARCHITECTURE TypeArchitecture OF HalfAdderVHDL IS
+ARCHITECTURE TypeArchitecture OF HalfAdder_vhdl IS
 BEGIN
   S &lt;= A XOR B;
   Cout &lt;= A AND B;
 END TypeArchitecture;
 </vhdl>
-  <vhdl name="FullSubtractorVHDL">LIBRARY ieee;
+  <vhdl name="FullSubtractor_vhdl">LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
-ENTITY FullSubtractorVHDL IS
+ENTITY FullSubtractor_vhdl IS
   PORT (
     A      : IN  std_logic;
     B      : IN  std_logic;
@@ -2243,18 +2219,18 @@ ENTITY FullSubtractorVHDL IS
     S      : OUT std_logic;
     Cout   : OUT std_logic
   );
-END FullSubtractorVHDL;
+END FullSubtractor_vhdl;
 
-ARCHITECTURE TypeArchitecture OF FullSubtractorVHDL IS
+ARCHITECTURE TypeArchitecture OF FullSubtractor_vhdl IS
 BEGIN
   S &lt;= (A XOR B) XOR Cin;
   Cout &lt;= (NOT A AND B) or (NOT A AND Cin) or (B AND Cin);
 END TypeArchitecture;
 </vhdl>
-  <vhdl name="FullAdderVHDL">LIBRARY ieee;
+  <vhdl name="FullAdder_vhdl">LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
-ENTITY FullAdderVHDL IS
+ENTITY FullAdder_vhdl IS
   PORT (
     A      : IN  std_logic;
     B      : IN  std_logic;
@@ -2262,18 +2238,18 @@ ENTITY FullAdderVHDL IS
     S      : OUT std_logic;
     Cout   : OUT std_logic
   );
-END FullAdderVHDL;
+END FullAdder_vhdl;
 
-ARCHITECTURE TypeArchitecture OF FullAdderVHDL IS
+ARCHITECTURE TypeArchitecture OF FullAdder_vhdl IS
 BEGIN
   S &lt;= (A XOR B) XOR Cin;
   Cout &lt;= (A AND B) or (A AND Cin) or (B AND Cin);
 END TypeArchitecture;
 </vhdl>
-  <vhdl name="HalfAdderSubtractorVHDL">LIBRARY ieee;
+  <vhdl name="HalfAdderSubtractor_vhdl">LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
-ENTITY HalfAdderSubtractorVHDL IS
+ENTITY HalfAdderSubtractor_vhdl IS
   PORT (
     A      : IN  std_logic;
     B      : IN  std_logic;
@@ -2282,27 +2258,27 @@ ENTITY HalfAdderSubtractorVHDL IS
     S      : OUT std_logic;
     Cout   : OUT std_logic
   );
-END HalfAdderSubtractorVHDL;
+END HalfAdderSubtractor_vhdl;
 
-ARCHITECTURE TypeArchitecture OF HalfAdderSubtractorVHDL IS
+ARCHITECTURE TypeArchitecture OF HalfAdderSubtractor_vhdl IS
 BEGIN
   S &lt;= (A XOR B) XOR Cin;
   Cout &lt;= ((M XOR A) AND B) OR ((M XOR A) AND Cin) OR (B AND Cin);
 END TypeArchitecture;
 </vhdl>
-  <vhdl name="Subtractor4BITSVHDL">LIBRARY ieee;
+  <vhdl name="Sutractor4bits_vhdl">LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
-ENTITY Subtractor4BITSVHDL IS
+ENTITY Sutractor4bits_vhdl IS
   PORT (
     A     : IN  std_logic_vector(3 downto 0); 
     B     : IN  std_logic_vector(3 downto 0); 
     S     : OUT std_logic_vector(3 downto 0); 
     OVERF : OUT std_logic                     
   );
-END Subtractor4BITSVHDL;
+END Sutractor4bits_vhdl;
 
-ARCHITECTURE TypeArchitecture OF Subtractor4BITSVHDL IS
+ARCHITECTURE TypeArchitecture OF Sutractor4bits_vhdl IS
   SIGNAL CARRY : std_logic_vector(3 downto 0);
 BEGIN
   CARRY(0) &lt;= '0';
@@ -2321,19 +2297,19 @@ BEGIN
   
 END TypeArchitecture;
 </vhdl>
-  <vhdl name="Adder4BITSVHDL">LIBRARY ieee;
+  <vhdl name="Adder4bits_vhdl">LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
-ENTITY Adder4BITSVHDL IS
+ENTITY Adder4bits_vhdl IS
   PORT (
     A     : IN  std_logic_vector(3 downto 0); 
     B     : IN  std_logic_vector(3 downto 0); 
     S     : OUT std_logic_vector(3 downto 0); 
     OVERF : OUT std_logic                     
   );
-END Adder4BITSVHDL;
+END Adder4bits_vhdl;
 
-ARCHITECTURE TypeArchitecture OF Adder4BITSVHDL IS
+ARCHITECTURE TypeArchitecture OF Adder4bits_vhdl IS
   SIGNAL CARRY : std_logic_vector(3 downto 0);
 BEGIN
   CARRY(0) &lt;= '0';
@@ -2352,10 +2328,10 @@ BEGIN
   
 END TypeArchitecture;
 </vhdl>
-  <vhdl name="AdderSubtractor4BITSVHDL">LIBRARY ieee;
+  <vhdl name="AdderSubtractor4bits_vhdl">LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
-ENTITY AdderSubtractor4BITSVHDL IS
+ENTITY AdderSubtractor4bits_vhdl IS
   PORT (
     M	: IN	 std_logic;
     A     : IN  std_logic_vector(3 downto 0); 
@@ -2363,9 +2339,9 @@ ENTITY AdderSubtractor4BITSVHDL IS
     S     : OUT std_logic_vector(3 downto 0); 
     OVERF : OUT std_logic                     
   );
-END AdderSubtractor4BITSVHDL;
+END AdderSubtractor4bits_vhdl;
 
-ARCHITECTURE TypeArchitecture OF AdderSubtractor4BITSVHDL IS
+ARCHITECTURE TypeArchitecture OF AdderSubtractor4bits_vhdl IS
   SIGNAL CARRY : std_logic_vector(3 downto 0);
 BEGIN
   CARRY(0) &lt;= '0';
@@ -2384,19 +2360,19 @@ BEGIN
   
 END TypeArchitecture;
 </vhdl>
-  <vhdl name="TwoComplementSubtractor4BITSVHDL">LIBRARY ieee;
+  <vhdl name="TwoComplementSubtractor_vhdl">LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
-ENTITY TwoComplementSubtractor4BITSVHDL IS
+ENTITY TwoComplementSubtractor_vhdl IS
   PORT (
     A     : IN  std_logic_vector(3 downto 0); 
     B     : IN  std_logic_vector(3 downto 0); 
     S     : OUT std_logic_vector(3 downto 0); 
     OVERF : OUT std_logic                     
   );
-END TwoComplementSubtractor4BITSVHDL;
+END TwoComplementSubtractor_vhdl;
 
-ARCHITECTURE TypeArchitecture OF TwoComplementSubtractor4BITSVHDL IS
+ARCHITECTURE TypeArchitecture OF TwoComplementSubtractor_vhdl IS
   SIGNAL CARRY : std_logic_vector(3 downto 0);
 BEGIN
   CARRY(0) &lt;= '1';
