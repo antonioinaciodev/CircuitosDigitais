@@ -4,12 +4,13 @@
 
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
-      <a name="facing" val="south"/>
+      <a name="facing" val="north"/>
     </tool>
     <tool name="Pin">
       <a name="appearance" val="classic"/>
     </tool>
     <tool name="Constant">
+      <a name="facing" val="south"/>
       <a name="value" val="0x0"/>
     </tool>
     <tool name="Power">
@@ -734,16 +735,16 @@
       <a name="bg" val="#000000"/>
       <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="8" loc="(1146,265)" name="Text">
+    <comp lib="8" loc="(1145,265)" name="Text">
       <a name="text" val="HEXADECIMAL"/>
     </comp>
     <comp lib="8" loc="(145,360)" name="Text">
       <a name="text" val="Seletor"/>
     </comp>
-    <comp lib="8" loc="(372,75)" name="Text">
+    <comp lib="8" loc="(370,75)" name="Text">
       <a name="text" val="BINARIO"/>
     </comp>
-    <comp lib="8" loc="(463,25)" name="Text">
+    <comp lib="8" loc="(460,25)" name="Text">
       <a name="font" val="SansSerif bold 20"/>
       <a name="text" val="Menu de Operações Lógicas"/>
     </comp>
@@ -4439,16 +4440,16 @@
       <a name="bg" val="#000000"/>
       <a name="offcolor" val="#000000"/>
     </comp>
-    <comp lib="8" loc="(1146,265)" name="Text">
+    <comp lib="8" loc="(1145,265)" name="Text">
       <a name="text" val="HEXADECIMAL"/>
     </comp>
     <comp lib="8" loc="(145,360)" name="Text">
       <a name="text" val="Seletor"/>
     </comp>
-    <comp lib="8" loc="(372,75)" name="Text">
+    <comp lib="8" loc="(370,75)" name="Text">
       <a name="text" val="BINARIO"/>
     </comp>
-    <comp lib="8" loc="(463,25)" name="Text">
+    <comp lib="8" loc="(460,25)" name="Text">
       <a name="font" val="SansSerif bold 20"/>
       <a name="text" val="Menu de Operações Lógicas"/>
     </comp>
