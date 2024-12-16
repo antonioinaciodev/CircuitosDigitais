@@ -655,86 +655,26 @@
       <a name="size" val="30"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="5" loc="(1010,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(1150,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(1270,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(130,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(1320,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(200,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(250,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(30,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(300,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(350,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(420,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(470,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(520,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(570,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(640,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(690,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(740,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(790,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(80,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(840,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
+    <comp lib="5" loc="(1010,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(1150,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(1270,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(130,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(1320,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(200,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(250,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(30,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(300,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(350,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(420,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(470,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(520,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(570,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(640,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(690,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(740,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(790,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(80,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(840,150)" name="7-Segment Display"/>
     <comp lib="8" loc="(1145,265)" name="Text">
       <a name="text" val="HEXADECIMAL"/>
     </comp>
@@ -4360,86 +4300,26 @@
       <a name="size" val="30"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="5" loc="(1010,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(1150,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(1270,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(130,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(1320,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(200,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(250,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(30,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(300,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(350,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(420,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(470,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(520,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(570,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(640,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(690,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(740,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(790,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(80,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
-    <comp lib="5" loc="(840,150)" name="7-Segment Display">
-      <a name="bg" val="#000000"/>
-      <a name="offcolor" val="#000000"/>
-    </comp>
+    <comp lib="5" loc="(1010,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(1150,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(1270,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(130,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(1320,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(200,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(250,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(30,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(300,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(350,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(420,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(470,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(520,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(570,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(640,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(690,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(740,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(790,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(80,150)" name="7-Segment Display"/>
+    <comp lib="5" loc="(840,150)" name="7-Segment Display"/>
     <comp lib="8" loc="(1145,265)" name="Text">
       <a name="text" val="HEXADECIMAL"/>
     </comp>
@@ -4459,10 +4339,12 @@
     <comp loc="(1020,370)" name="big_or_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp loc="(1050,130)" name="decodificador_hex">
+    <comp loc="(1050,130)" name="decodificador_hex_vhdl">
+      <a name="appearance" val="classic"/>
       <a name="facing" val="south"/>
     </comp>
-    <comp loc="(1190,130)" name="decodificador_hex">
+    <comp loc="(1190,130)" name="decodificador_hex_vhdl">
+      <a name="appearance" val="classic"/>
       <a name="facing" val="south"/>
     </comp>
     <comp loc="(260,380)" name="seletor_vhdl">
@@ -4486,7 +4368,8 @@
     <comp loc="(670,990)" name="mascara_ligar_101_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp loc="(910,130)" name="decodificador_hex">
+    <comp loc="(910,130)" name="decodificador_hex_vhdl">
+      <a name="appearance" val="classic"/>
       <a name="facing" val="south"/>
     </comp>
     <wire from="(100,120)" to="(100,130)"/>
@@ -5745,4 +5628,70 @@ BEGIN
     S &lt;= S0 OR S1 OR S2 OR S3 OR S4 OR S5 OR S6 OR S7;
   END PROCESS;
 END Behavioral;</vhdl>
+  <vhdl name="decodificador_dec_vhdl">library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity decodificador_dec_vhdl is
+    Port (
+        entrada : in STD_LOGIC_VECTOR(3 downto 0);
+        saida   : out STD_LOGIC_VECTOR(6 downto 0)
+    );
+end decodificador_dec_vhdl;
+
+architecture Behavioral of decodificador_dec_vhdl is
+begin
+    process(entrada)
+    begin
+        case entrada is
+            when "0000" =&gt; saida &lt;= "0111111";
+            when "0001" =&gt; saida &lt;= "0000110";
+            when "0010" =&gt; saida &lt;= "1011011";
+            when "0011" =&gt; saida &lt;= "1001111";
+            when "0100" =&gt; saida &lt;= "1100110";
+            when "0101" =&gt; saida &lt;= "1101101";
+            when "0110" =&gt; saida &lt;= "1111101";
+            when "0111" =&gt; saida &lt;= "0000111";
+            when "1000" =&gt; saida &lt;= "1111111";
+            when "1001" =&gt; saida &lt;= "1101111";
+            when others =&gt; saida &lt;= "0000000";
+        end case;
+    end process;
+end Behavioral;
+</vhdl>
+  <vhdl name="decodificador_hex_vhdl">library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity decodificador_hex_vhdl is
+    Port (
+        entrada : in STD_LOGIC_VECTOR(3 downto 0);
+        saida   : out STD_LOGIC_VECTOR(6 downto 0)
+    );
+end decodificador_hex_vhdl;
+
+architecture Behavioral of decodificador_hex_vhdl is
+begin
+    process(entrada)
+    begin
+        case entrada is
+            when "0000" =&gt; saida &lt;= "0111111";
+            when "0001" =&gt; saida &lt;= "0000110";
+            when "0010" =&gt; saida &lt;= "1011011";
+            when "0011" =&gt; saida &lt;= "1001111";
+            when "0100" =&gt; saida &lt;= "1100110";
+            when "0101" =&gt; saida &lt;= "1101101";
+            when "0110" =&gt; saida &lt;= "1111101";
+            when "0111" =&gt; saida &lt;= "0000111";
+            when "1000" =&gt; saida &lt;= "1111111";
+            when "1001" =&gt; saida &lt;= "1101111";
+            when "1010" =&gt; saida &lt;= "1110111";
+            when "1011" =&gt; saida &lt;= "1111100";
+            when "1100" =&gt; saida &lt;= "0111001";
+            when "1101" =&gt; saida &lt;= "1011110";
+            when "1110" =&gt; saida &lt;= "1111001";
+            when "1111" =&gt; saida &lt;= "1110001";
+            when others =&gt; saida &lt;= "0000000";
+        end case;
+    end process;
+end Behavioral;
+</vhdl>
 </project>
