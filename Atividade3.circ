@@ -1387,35 +1387,33 @@
     <a name="circuit" val="cortador_de_pulsos_decr_asinc"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(1190,460)" name="NoConnect"/>
-    <comp lib="0" loc="(120,390)" name="Constant">
-      <a name="value" val="0x0"/>
+    <comp lib="0" loc="(100,470)" name="Clock">
+      <a name="label" val="CLK"/>
     </comp>
-    <comp lib="0" loc="(1200,570)" name="Pin">
+    <comp lib="0" loc="(1090,570)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(1230,370)" name="Tunnel">
-      <a name="label" val="B"/>
+    <comp lib="0" loc="(120,390)" name="Constant">
+      <a name="value" val="0x0"/>
     </comp>
-    <comp lib="0" loc="(1250,580)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
-    </comp>
-    <comp lib="0" loc="(1250,580)" name="Tunnel">
-      <a name="label" val="S"/>
-      <a name="width" val="4"/>
+    <comp lib="0" loc="(120,550)" name="Pin">
+      <a name="appearance" val="NewPins"/>
     </comp>
     <comp lib="0" loc="(130,230)" name="Constant">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(130,480)" name="Clock">
-      <a name="label" val="CLK"/>
-    </comp>
     <comp lib="0" loc="(130,90)" name="Tunnel">
       <a name="facing" val="south"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="0" loc="(1350,570)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1380,370)" name="Tunnel">
       <a name="label" val="B"/>
     </comp>
     <comp lib="0" loc="(140,170)" name="Constant">
@@ -1424,6 +1422,15 @@
     <comp lib="0" loc="(140,370)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="J"/>
+    </comp>
+    <comp lib="0" loc="(1400,580)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="0" loc="(1400,580)" name="Tunnel">
+      <a name="label" val="S"/>
+      <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(290,90)" name="Splitter">
       <a name="facing" val="south"/>
@@ -1450,20 +1457,19 @@
     <comp lib="0" loc="(410,230)" name="Constant">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(410,460)" name="NoConnect"/>
     <comp lib="0" loc="(420,170)" name="Constant">
       <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(420,570)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(460,230)" name="Constant">
       <a name="facing" val="north"/>
     </comp>
     <comp lib="0" loc="(470,170)" name="Constant">
       <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(470,570)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(560,160)" name="Splitter">
       <a name="appear" val="right"/>
@@ -1475,14 +1481,7 @@
       <a name="label" val="S"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="0" loc="(670,460)" name="NoConnect"/>
-    <comp lib="0" loc="(680,570)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-    </comp>
-    <comp lib="0" loc="(930,460)" name="NoConnect"/>
-    <comp lib="0" loc="(940,570)" name="Pin">
+    <comp lib="0" loc="(780,570)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -1490,6 +1489,9 @@
     <comp lib="1" loc="(110,230)" name="NOT Gate">
       <a name="facing" val="north"/>
       <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(1120,480)" name="XOR Gate">
+      <a name="size" val="30"/>
     </comp>
     <comp lib="1" loc="(120,170)" name="NOT Gate">
       <a name="facing" val="south"/>
@@ -1503,8 +1505,8 @@
       <a name="facing" val="south"/>
       <a name="size" val="20"/>
     </comp>
-    <comp lib="1" loc="(180,480)" name="NOT Gate">
-      <a name="size" val="20"/>
+    <comp lib="1" loc="(180,480)" name="XOR Gate">
+      <a name="size" val="30"/>
     </comp>
     <comp lib="1" loc="(290,230)" name="NOT Gate">
       <a name="facing" val="north"/>
@@ -1558,9 +1560,6 @@
       <a name="facing" val="north"/>
       <a name="size" val="20"/>
     </comp>
-    <comp lib="1" loc="(440,480)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
     <comp lib="1" loc="(450,170)" name="NOT Gate">
       <a name="facing" val="south"/>
       <a name="size" val="20"/>
@@ -1573,11 +1572,11 @@
       <a name="facing" val="south"/>
       <a name="size" val="20"/>
     </comp>
-    <comp lib="1" loc="(700,480)" name="NOT Gate">
-      <a name="size" val="20"/>
+    <comp lib="1" loc="(500,480)" name="XOR Gate">
+      <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(960,480)" name="NOT Gate">
-      <a name="size" val="20"/>
+    <comp lib="1" loc="(810,480)" name="XOR Gate">
+      <a name="size" val="30"/>
     </comp>
     <comp lib="5" loc="(110,170)" name="7-Segment Display"/>
     <comp lib="5" loc="(120,350)" name="Button">
@@ -1601,40 +1600,60 @@
     <comp lib="8" loc="(625,290)" name="Text">
       <a name="text" val="SAÍDA"/>
     </comp>
-    <comp loc="(1190,440)" name="FF_JK_ME_PC_T"/>
+    <comp loc="(1030,440)" name="FF_JK_ME_PC_T"/>
+    <comp loc="(1340,440)" name="FF_JK_ME_PC_T"/>
     <comp loc="(410,440)" name="FF_JK_ME_PC_T"/>
     <comp loc="(560,120)" name="decodificador_hex">
       <a name="facing" val="south"/>
     </comp>
-    <comp loc="(670,440)" name="FF_JK_ME_PC_T"/>
-    <comp loc="(930,440)" name="FF_JK_ME_PC_T"/>
-    <wire from="(100,590)" to="(420,590)"/>
-    <wire from="(100,600)" to="(680,600)"/>
-    <wire from="(100,610)" to="(940,610)"/>
-    <wire from="(100,620)" to="(1200,620)"/>
+    <comp loc="(720,440)" name="FF_JK_ME_PC_T"/>
+    <wire from="(100,470)" to="(140,470)"/>
+    <wire from="(100,590)" to="(430,590)"/>
+    <wire from="(100,600)" to="(740,600)"/>
+    <wire from="(100,610)" to="(1050,610)"/>
+    <wire from="(100,620)" to="(1350,620)"/>
+    <wire from="(1030,440)" to="(1050,440)"/>
+    <wire from="(1050,440)" to="(1050,470)"/>
+    <wire from="(1050,470)" to="(1050,610)"/>
+    <wire from="(1050,470)" to="(1080,470)"/>
+    <wire from="(1050,610)" to="(1090,610)"/>
+    <wire from="(1080,490)" to="(1080,550)"/>
+    <wire from="(1080,550)" to="(1380,550)"/>
+    <wire from="(1090,570)" to="(1090,610)"/>
+    <wire from="(1090,610)" to="(1380,610)"/>
     <wire from="(110,250)" to="(120,250)"/>
-    <wire from="(1190,440)" to="(1200,440)"/>
+    <wire from="(1100,390)" to="(1100,500)"/>
+    <wire from="(1100,390)" to="(1380,390)"/>
+    <wire from="(1100,500)" to="(1120,500)"/>
+    <wire from="(1110,370)" to="(1110,460)"/>
+    <wire from="(1110,370)" to="(1380,370)"/>
+    <wire from="(1110,460)" to="(1120,460)"/>
+    <wire from="(1120,350)" to="(1120,440)"/>
+    <wire from="(1120,350)" to="(1380,350)"/>
     <wire from="(120,150)" to="(130,150)"/>
     <wire from="(120,250)" to="(150,250)"/>
     <wire from="(120,350)" to="(190,350)"/>
     <wire from="(120,390)" to="(170,390)"/>
-    <wire from="(1200,440)" to="(1200,570)"/>
-    <wire from="(1200,570)" to="(1200,620)"/>
-    <wire from="(1200,620)" to="(1230,620)"/>
+    <wire from="(120,550)" to="(140,550)"/>
     <wire from="(130,150)" to="(150,150)"/>
-    <wire from="(130,480)" to="(160,480)"/>
     <wire from="(130,90)" to="(130,150)"/>
+    <wire from="(1340,440)" to="(1350,440)"/>
+    <wire from="(1350,440)" to="(1350,570)"/>
+    <wire from="(1350,570)" to="(1350,620)"/>
+    <wire from="(1350,620)" to="(1380,620)"/>
     <wire from="(140,370)" to="(180,370)"/>
+    <wire from="(140,490)" to="(140,550)"/>
+    <wire from="(140,550)" to="(460,550)"/>
     <wire from="(150,150)" to="(150,250)"/>
     <wire from="(170,390)" to="(170,500)"/>
-    <wire from="(170,390)" to="(430,390)"/>
+    <wire from="(170,390)" to="(480,390)"/>
     <wire from="(170,500)" to="(190,500)"/>
     <wire from="(180,370)" to="(180,460)"/>
-    <wire from="(180,370)" to="(440,370)"/>
+    <wire from="(180,370)" to="(490,370)"/>
     <wire from="(180,460)" to="(190,460)"/>
     <wire from="(180,480)" to="(190,480)"/>
     <wire from="(190,350)" to="(190,440)"/>
-    <wire from="(190,350)" to="(450,350)"/>
+    <wire from="(190,350)" to="(500,350)"/>
     <wire from="(290,250)" to="(300,250)"/>
     <wire from="(300,110)" to="(300,150)"/>
     <wire from="(300,150)" to="(310,150)"/>
@@ -1658,27 +1677,30 @@
     <wire from="(400,250)" to="(430,250)"/>
     <wire from="(410,130)" to="(410,150)"/>
     <wire from="(410,150)" to="(430,150)"/>
-    <wire from="(410,440)" to="(420,440)"/>
-    <wire from="(420,440)" to="(420,480)"/>
-    <wire from="(420,480)" to="(420,570)"/>
-    <wire from="(420,570)" to="(420,590)"/>
-    <wire from="(420,590)" to="(1230,590)"/>
+    <wire from="(410,440)" to="(430,440)"/>
     <wire from="(430,150)" to="(430,250)"/>
-    <wire from="(430,390)" to="(430,500)"/>
-    <wire from="(430,390)" to="(690,390)"/>
-    <wire from="(430,500)" to="(450,500)"/>
+    <wire from="(430,440)" to="(430,470)"/>
+    <wire from="(430,470)" to="(430,590)"/>
+    <wire from="(430,470)" to="(460,470)"/>
+    <wire from="(430,590)" to="(470,590)"/>
     <wire from="(440,250)" to="(450,250)"/>
-    <wire from="(440,370)" to="(440,460)"/>
-    <wire from="(440,370)" to="(700,370)"/>
-    <wire from="(440,460)" to="(450,460)"/>
-    <wire from="(440,480)" to="(450,480)"/>
     <wire from="(450,150)" to="(460,150)"/>
     <wire from="(450,250)" to="(480,250)"/>
-    <wire from="(450,350)" to="(450,440)"/>
-    <wire from="(450,350)" to="(710,350)"/>
     <wire from="(460,120)" to="(460,150)"/>
     <wire from="(460,150)" to="(480,150)"/>
+    <wire from="(460,490)" to="(460,550)"/>
+    <wire from="(460,550)" to="(770,550)"/>
+    <wire from="(470,570)" to="(470,590)"/>
+    <wire from="(470,590)" to="(1380,590)"/>
     <wire from="(480,150)" to="(480,250)"/>
+    <wire from="(480,390)" to="(480,500)"/>
+    <wire from="(480,390)" to="(790,390)"/>
+    <wire from="(480,500)" to="(500,500)"/>
+    <wire from="(490,370)" to="(490,460)"/>
+    <wire from="(490,370)" to="(800,370)"/>
+    <wire from="(490,460)" to="(500,460)"/>
+    <wire from="(500,350)" to="(500,440)"/>
+    <wire from="(500,350)" to="(810,350)"/>
     <wire from="(560,120)" to="(560,160)"/>
     <wire from="(580,170)" to="(600,170)"/>
     <wire from="(580,180)" to="(590,180)"/>
@@ -1709,37 +1731,26 @@
     <wire from="(660,230)" to="(660,260)"/>
     <wire from="(670,140)" to="(670,170)"/>
     <wire from="(670,230)" to="(670,250)"/>
-    <wire from="(670,440)" to="(680,440)"/>
     <wire from="(680,150)" to="(680,170)"/>
     <wire from="(680,230)" to="(680,240)"/>
-    <wire from="(680,440)" to="(680,480)"/>
-    <wire from="(680,480)" to="(680,570)"/>
-    <wire from="(680,570)" to="(680,600)"/>
-    <wire from="(680,600)" to="(1230,600)"/>
     <wire from="(690,160)" to="(690,170)"/>
-    <wire from="(690,390)" to="(690,500)"/>
-    <wire from="(690,390)" to="(950,390)"/>
-    <wire from="(690,500)" to="(710,500)"/>
-    <wire from="(700,370)" to="(700,460)"/>
-    <wire from="(700,370)" to="(960,370)"/>
-    <wire from="(700,460)" to="(710,460)"/>
-    <wire from="(700,480)" to="(710,480)"/>
-    <wire from="(710,350)" to="(710,440)"/>
-    <wire from="(710,350)" to="(970,350)"/>
-    <wire from="(930,440)" to="(940,440)"/>
-    <wire from="(940,440)" to="(940,480)"/>
-    <wire from="(940,480)" to="(940,570)"/>
-    <wire from="(940,570)" to="(940,610)"/>
-    <wire from="(940,610)" to="(1230,610)"/>
-    <wire from="(950,390)" to="(1230,390)"/>
-    <wire from="(950,390)" to="(950,500)"/>
-    <wire from="(950,500)" to="(970,500)"/>
-    <wire from="(960,370)" to="(1230,370)"/>
-    <wire from="(960,370)" to="(960,460)"/>
-    <wire from="(960,460)" to="(970,460)"/>
-    <wire from="(960,480)" to="(970,480)"/>
-    <wire from="(970,350)" to="(1230,350)"/>
-    <wire from="(970,350)" to="(970,440)"/>
+    <wire from="(720,440)" to="(740,440)"/>
+    <wire from="(740,440)" to="(740,470)"/>
+    <wire from="(740,470)" to="(740,600)"/>
+    <wire from="(740,470)" to="(770,470)"/>
+    <wire from="(740,600)" to="(780,600)"/>
+    <wire from="(770,490)" to="(770,550)"/>
+    <wire from="(770,550)" to="(1080,550)"/>
+    <wire from="(780,570)" to="(780,600)"/>
+    <wire from="(780,600)" to="(1380,600)"/>
+    <wire from="(790,390)" to="(1100,390)"/>
+    <wire from="(790,390)" to="(790,500)"/>
+    <wire from="(790,500)" to="(810,500)"/>
+    <wire from="(800,370)" to="(1110,370)"/>
+    <wire from="(800,370)" to="(800,460)"/>
+    <wire from="(800,460)" to="(810,460)"/>
+    <wire from="(810,350)" to="(1120,350)"/>
+    <wire from="(810,350)" to="(810,440)"/>
   </circuit>
   <circuit name="cortador_de_decada_decr_asinc">
     <a name="appearance" val="logisim_evolution"/>
@@ -10744,31 +10755,31 @@
     <comp lib="8" loc="(185,850)" name="Text">
       <a name="text" val="contador de décadas decrescente"/>
     </comp>
-    <comp lib="8" loc="(191,1441)" name="Text">
+    <comp lib="8" loc="(190,1440)" name="Text">
       <a name="text" val="KEY = 0: vetorN -&gt; vetorM"/>
     </comp>
-    <comp lib="8" loc="(191,1461)" name="Text">
+    <comp lib="8" loc="(190,1460)" name="Text">
       <a name="text" val="KEY = 1: vetorn &lt;- vetorM"/>
     </comp>
-    <comp loc="(300,100)" name="contador_de_pulsos_cres_vhdl">
+    <comp loc="(300,100)" name="contador_de_pulsos_cres_asinc_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp loc="(300,1070)" name="contador_de_n_decr_vhdl">
+    <comp loc="(300,1070)" name="contador_de_n_decr_asinc_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp loc="(300,1280)" name="contador_com_chave_vhdl">
+    <comp loc="(300,1280)" name="contador_com_chave_asinc_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp loc="(300,290)" name="contador_de_decada_cresc_vhdl">
+    <comp loc="(300,290)" name="contador_de_decada_cresc_asinc_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp loc="(300,480)" name="contador_de_n_cresc_vhdl">
+    <comp loc="(300,480)" name="contador_de_n_cresc_asinc_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp loc="(300,690)" name="contador_de_pulsos_decr_vhdl">
+    <comp loc="(300,690)" name="contador_de_pulsos_decr_asinc_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp loc="(300,880)" name="contador_de_decada_decr_vhdl">
+    <comp loc="(300,880)" name="contador_de_decada_decr_asinc_vhdl">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
     <comp loc="(420,1080)" name="decodificador_hex">
@@ -11024,31 +11035,31 @@
     <wire from="(550,700)" to="(550,710)"/>
     <wire from="(550,890)" to="(550,900)"/>
   </circuit>
-  <vhdl name="contador_de_pulsos_cres_vhdl">library IEEE;
+  <vhdl name="contador_de_pulsos_cres_asinc_vhdl">library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-entity contador_de_pulsos_cres_vhdl is
+entity contador_de_pulsos_cres_asinc_vhdl is
     Port (
-        clk     : in  STD_LOGIC;  -- Entrada de clock
-        clr     : in  STD_LOGIC;  -- Entrada para limpar (reset)
-        T       : in  STD_LOGIC;  -- Entrada para ativar o contador
-        count   : out STD_LOGIC_VECTOR(3 downto 0) -- Saída do contador
+        clk     : in  STD_LOGIC;  
+        clr     : in  STD_LOGIC; 
+        T       : in  STD_LOGIC; 
+        count   : out STD_LOGIC_VECTOR(3 downto 0)
     );
-end contador_de_pulsos_cres_vhdl;
+end contador_de_pulsos_cres_asinc_vhdl;
 
-architecture Behavioral of contador_de_pulsos_cres_vhdl is
-    signal count_reg : STD_LOGIC_VECTOR(3 downto 0) := "0000"; -- Contador interno
+architecture Behavioral of contador_de_pulsos_cres_asinc_vhdl is
+    signal count_reg : STD_LOGIC_VECTOR(3 downto 0) := "0000";
 begin
     process(clk, clr)
     begin
-        if clr = '1' then  -- Zera o contador quando 'clr' está ativo
+        if clr = '1' then
             count_reg &lt;= "0000";
-        elsif rising_edge(clk) then  -- Incrementa no clock
+        elsif rising_edge(clk) then
             if T = '1' then
-                if count_reg = "1111" then  -- Verifica se chegou em F (15)
-                    count_reg &lt;= "0000";    -- Volta para 0
+                if count_reg = "1111" then
+                    count_reg &lt;= "0000";
                 else
                     count_reg &lt;= count_reg + 1;
                 end if;
@@ -11056,105 +11067,105 @@ begin
         end if;
     end process;
 
-    count &lt;= count_reg; -- Atribui o valor do contador à saída
+    count &lt;= count_reg;
 end Behavioral;
 </vhdl>
-  <vhdl name="contador_de_decada_cresc_vhdl">library IEEE;
+  <vhdl name="contador_de_decada_cresc_asinc_vhdl">library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-entity contador_de_decada_cresc_vhdl is
+entity contador_de_decada_cresc_asinc_vhdl is
     Port (
-        clk     : in  STD_LOGIC;  -- Entrada de clock
-        clr     : in  STD_LOGIC;  -- Entrada para limpar (reset)
-        T       : in  STD_LOGIC;  -- Entrada para ativar o contador
-        count   : out STD_LOGIC_VECTOR(3 downto 0) -- Saída do contador
+        clk     : in  STD_LOGIC;  
+        clr     : in  STD_LOGIC;  
+        T       : in  STD_LOGIC;  
+        count   : out STD_LOGIC_VECTOR(3 downto 0)
     );
-end contador_de_decada_cresc_vhdl;
+end contador_de_decada_cresc_asinc_vhdl;
 
-architecture Behavioral of contador_de_decada_cresc_vhdl is
-    signal count_reg : STD_LOGIC_VECTOR(3 downto 0) := "0000"; -- Contador interno inicializado em 0
+architecture Behavioral of contador_de_decada_cresc_asinc_vhdl is
+    signal count_reg : STD_LOGIC_VECTOR(3 downto 0) := "0000";
 begin
     process(clk, clr)
     begin
-        if clr = '1' then  -- Zera o contador quando 'clr' está ativo
-            count_reg &lt;= "0000";  -- Reinicia o contador em 0
-        elsif rising_edge(clk) then  -- Incrementa no clock
+        if clr = '1' then 
+            count_reg &lt;= "0000"; 
+        elsif rising_edge(clk) then 
             if T = '1' then
-                if count_reg = "1000" then  -- Verifica se chegou a 8 (1000 em binário)
-                    count_reg &lt;= "0000";    -- Volta para 0
+                if count_reg = "1000" then  
+                    count_reg &lt;= "0000";  
                 else
-                    count_reg &lt;= count_reg + 1; -- Incrementa o contador
+                    count_reg &lt;= count_reg + 1; 
                 end if;
             end if;
         end if;
     end process;
 
-    count &lt;= count_reg; -- Atribui o valor do contador à saída
+    count &lt;= count_reg;
 end Behavioral;
 </vhdl>
-  <vhdl name="contador_de_n_cresc_vhdl">library IEEE;
+  <vhdl name="contador_de_n_cresc_asinc_vhdl">library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-entity contador_de_n_cresc_vhdl is
+entity contador_de_n_cresc_asinc_vhdl is
     Port (
-        clk     : in  STD_LOGIC;  -- Entrada de clock
-        clr     : in  STD_LOGIC;  -- Entrada para limpar (reset)
-        T       : in  STD_LOGIC;  -- Entrada para ativar o contador
-        N       : in  STD_LOGIC_VECTOR(3 downto 0); -- Valor limite (N) da contagem
-        count   : out STD_LOGIC_VECTOR(3 downto 0) -- Saída do contador
+        clk     : in  STD_LOGIC;  
+        clr     : in  STD_LOGIC;  
+        T       : in  STD_LOGIC;  
+        N       : in  STD_LOGIC_VECTOR(3 downto 0); 
+        count   : out STD_LOGIC_VECTOR(3 downto 0)
     );
-end contador_de_n_cresc_vhdl;
+end contador_de_n_cresc_asinc_vhdl;
 
-architecture Behavioral of contador_de_n_cresc_vhdl is
-    signal count_reg : STD_LOGIC_VECTOR(3 downto 0) := "0000"; -- Contador interno inicializado em 0
+architecture Behavioral of contador_de_n_cresc_asinc_vhdl is
+    signal count_reg : STD_LOGIC_VECTOR(3 downto 0) := "0000";
 begin
     process(clk, clr)
     begin
-        if clr = '1' then  -- Zera o contador quando 'clr' está ativo
-            count_reg &lt;= "0000";  -- Reinicia o contador em 0
-        elsif rising_edge(clk) then  -- Incrementa no clock
+        if clr = '1' then  
+            count_reg &lt;= "0000";  
+        elsif rising_edge(clk) then  
             if T = '1' then
-                if count_reg = N - 1 then  -- Verifica se o contador alcançou N-1
-                    count_reg &lt;= "0000";    -- Volta para 0
+                if count_reg = N - 1 then  
+                    count_reg &lt;= "0000";   
                 else
-                    count_reg &lt;= count_reg + 1; -- Incrementa o contador
+                    count_reg &lt;= count_reg + 1; 
                 end if;
             end if;
         end if;
     end process;
 
-    count &lt;= count_reg; -- Atribui o valor do contador à saída
+    count &lt;= count_reg; 
 end Behavioral;
 </vhdl>
-  <vhdl name="contador_de_pulsos_decr_vhdl">library IEEE;
+  <vhdl name="contador_de_pulsos_decr_asinc_vhdl">library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-entity contador_de_pulsos_decr_vhdl is
+entity contador_de_pulsos_decr_asinc_vhdl is
     Port (
-        clk     : in  STD_LOGIC;  -- Entrada de clock
-        clr     : in  STD_LOGIC;  -- Entrada para limpar (reset)
-        T       : in  STD_LOGIC;  -- Entrada para ativar o contador
-        count   : out STD_LOGIC_VECTOR(3 downto 0) -- Saída do contador
+        clk     : in  STD_LOGIC;  
+        clr     : in  STD_LOGIC;  
+        T       : in  STD_LOGIC;  
+        count   : out STD_LOGIC_VECTOR(3 downto 0) 
     );
-end contador_de_pulsos_decr_vhdl;
+end contador_de_pulsos_decr_asinc_vhdl;
 
-architecture Behavioral of contador_de_pulsos_decr_vhdl is
-    signal count_reg : STD_LOGIC_VECTOR(3 downto 0) := "1111"; -- Contador interno inicializado em F
+architecture Behavioral of contador_de_pulsos_decr_asinc_vhdl is
+    signal count_reg : STD_LOGIC_VECTOR(3 downto 0) := "1111"; 
 begin
     process(clk, clr)
     begin
-        if clr = '1' then  -- Zera o contador quando 'clr' está ativo
-            count_reg &lt;= "1111";  -- Reinicia o contador em F (15)
-        elsif rising_edge(clk) then  -- Decrementa no clock
+        if clr = '1' then 
+            count_reg &lt;= "1111";  
+        elsif rising_edge(clk) then  
             if T = '1' then
-                if count_reg = "0000" then  -- Verifica se chegou a 0
-                    count_reg &lt;= "1111";    -- Volta para F
+                if count_reg = "0000" then  
+                    count_reg &lt;= "1111";    
                 else
                     count_reg &lt;= count_reg - 1;
                 end if;
@@ -11162,88 +11173,88 @@ begin
         end if;
     end process;
 
-    count &lt;= count_reg; -- Atribui o valor do contador à saída
+    count &lt;= count_reg; 
 end Behavioral;
 </vhdl>
-  <vhdl name="contador_de_decada_decr_vhdl">library IEEE;
+  <vhdl name="contador_de_decada_decr_asinc_vhdl">library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-entity contador_de_decada_decr_vhdl is
+entity contador_de_decada_decr_asinc_vhdl is
     Port (
-        clk     : in  STD_LOGIC;  -- Entrada de clock
-        clr     : in  STD_LOGIC;  -- Entrada para limpar (reset)
-        T       : in  STD_LOGIC;  -- Entrada para ativar o contador
-        count   : out STD_LOGIC_VECTOR(3 downto 0) -- Saída do contador
+        clk     : in  STD_LOGIC; 
+        clr     : in  STD_LOGIC;  
+        T       : in  STD_LOGIC;  
+        count   : out STD_LOGIC_VECTOR(3 downto 0) 
     );
-end contador_de_decada_decr_vhdl;
+end contador_de_decada_decr_asinc_vhdl;
 
-architecture Behavioral of contador_de_decada_decr_vhdl is
-    signal count_reg : STD_LOGIC_VECTOR(3 downto 0) := "1001"; -- Inicializado em 9
+architecture Behavioral of contador_de_decada_decr_asinc_vhdl is
+    signal count_reg : STD_LOGIC_VECTOR(3 downto 0) := "1001"; 
 begin
     process(clk, clr)
     begin
-        if clr = '1' then  -- Zera o contador quando 'clr' está ativo
-            count_reg &lt;= "1001";  -- Reinicia o contador em 9
-        elsif rising_edge(clk) then  -- Decrementa no clock
+        if clr = '1' then  
+            count_reg &lt;= "1001";  
+        elsif rising_edge(clk) then  
             if T = '1' then
-                if count_reg = "0001" then  -- Verifica se chegou a 1 (0001 em binário)
-                    count_reg &lt;= "1001";    -- Volta para 9
+                if count_reg = "0001" then  
+                    count_reg &lt;= "1001";    
                 else
-                    count_reg &lt;= count_reg - 1; -- Decrementa o contador
+                    count_reg &lt;= count_reg - 1; 
                 end if;
             end if;
         end if;
     end process;
 
-    count &lt;= count_reg; -- Atribui o valor do contador à saída
+    count &lt;= count_reg; 
 end Behavioral;
 </vhdl>
-  <vhdl name="contador_de_n_decr_vhdl">library IEEE;
+  <vhdl name="contador_de_n_decr_asinc_vhdl">library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-entity contador_de_n_decr_vhdl is
+entity contador_de_n_decr_asinc_vhdl is
     Port (
-        clk     : in  STD_LOGIC;  -- Entrada de clock
-        set     : in  STD_LOGIC;  -- Entrada para ajustar o contador para o valor de N
-        T       : in  STD_LOGIC;  -- Entrada para ativar o contador
-        N       : in  STD_LOGIC_VECTOR(3 downto 0); -- Valor inicial da contagem (N)
-        count   : out STD_LOGIC_VECTOR(3 downto 0) -- Saída do contador
+        clk     : in  STD_LOGIC;  
+        set     : in  STD_LOGIC;  
+        T       : in  STD_LOGIC; 
+        N       : in  STD_LOGIC_VECTOR(3 downto 0); 
+        count   : out STD_LOGIC_VECTOR(3 downto 0)
     );
-end contador_de_n_decr_vhdl;
+end contador_de_n_decr_asinc_vhdl;
 
-architecture Behavioral of contador_de_n_decr_vhdl is
-    signal count_reg : STD_LOGIC_VECTOR(3 downto 0) := "0000"; -- Contador interno
+architecture Behavioral of contador_de_n_decr_asinc_vhdl is
+    signal count_reg : STD_LOGIC_VECTOR(3 downto 0) := "0000"; 
 begin
     process(clk, set)
     begin
-        if set = '1' then  -- Ajusta o contador para o valor de N quando 'set' está ativo
-            count_reg &lt;= N; -- Contador recebe o valor de N
+        if set = '1' then  
+            count_reg &lt;= N;
         elsif rising_edge(clk) then
             if T = '1' then
-                if N = "0000" then  -- Se N for 0000, a saída permanece 0000
+                if N = "0000" then
                     count_reg &lt;= "0000";
-                elsif count_reg = "0001" then  -- Verifica se o contador alcançou 1
-                    count_reg &lt;= N;           -- Retorna para N
+                elsif count_reg = "0001" then
+                    count_reg &lt;= N;           
                 else
-                    count_reg &lt;= count_reg - 1; -- Decrementa o contador
+                    count_reg &lt;= count_reg - 1; 
                 end if;
             end if;
         end if;
     end process;
 
-    count &lt;= count_reg; -- Atribui o valor do contador à saída
+    count &lt;= count_reg; 
 end Behavioral;
 </vhdl>
-  <vhdl name="contador_com_chave_vhdl">library IEEE;
+  <vhdl name="contador_com_chave_asinc_vhdl">library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-entity contador_com_chave_vhdl is
+entity contador_com_chave_asinc_vhdl is
     Port (
         clock   : in STD_LOGIC;
         clr     : in STD_LOGIC;
@@ -11253,38 +11264,36 @@ entity contador_com_chave_vhdl is
         vetorM  : in STD_LOGIC_VECTOR(3 downto 0);
         count   : out STD_LOGIC_VECTOR(3 downto 0)
     );
-end contador_com_chave_vhdl;
+end contador_com_chave_asinc_vhdl;
 
-architecture Behavioral of contador_com_chave_vhdl is
+architecture Behavioral of contador_com_chave_asinc_vhdl is
     signal reg_count : STD_LOGIC_VECTOR(3 downto 0) := (others =&gt; '0');
 begin
 
     process(clock, clr)
     begin
         if clr = '1' then
-            reg_count &lt;= vetorN;  -- Reseta o contador para o valor inicial (vetorN)
+            reg_count &lt;= vetorN; 
         elsif rising_edge(clock) then
             if enable = '1' then
                 if key = '0' then
-                    -- Contagem crescente: de N até M-1
                     if reg_count &lt; vetorM - "0001" then
                         reg_count &lt;= reg_count + "0001";
                     else
-                        reg_count &lt;= vetorN;  -- Reinicia o contador para o valor inicial
+                        reg_count &lt;= vetorN; 
                     end if;
                 else
-                    -- Contagem decrescente: de M até N+1
                     if reg_count &gt; vetorN + "0001" then
                         reg_count &lt;= reg_count - "0001";
                     else
-                        reg_count &lt;= vetorM;  -- Reinicia o contador para o valor inicial
+                        reg_count &lt;= vetorM;
                     end if;
                 end if;
             end if;
         end if;
     end process;
 
-    count &lt;= reg_count;  -- Saída do contador
+    count &lt;= reg_count;
 
 end Behavioral;
 </vhdl>
