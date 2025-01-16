@@ -10675,9 +10675,7 @@
     </comp>
     <comp lib="0" loc="(80,100)" name="Clock"/>
     <comp lib="0" loc="(80,1070)" name="Clock"/>
-    <comp lib="0" loc="(80,1110)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-    </comp>
+    <comp lib="0" loc="(80,1110)" name="Constant"/>
     <comp lib="0" loc="(80,1130)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="width" val="4"/>
@@ -10697,29 +10695,19 @@
       <a name="appearance" val="NewPins"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="0" loc="(80,140)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-    </comp>
+    <comp lib="0" loc="(80,140)" name="Constant"/>
     <comp lib="0" loc="(80,290)" name="Clock"/>
-    <comp lib="0" loc="(80,330)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-    </comp>
+    <comp lib="0" loc="(80,330)" name="Constant"/>
     <comp lib="0" loc="(80,480)" name="Clock"/>
-    <comp lib="0" loc="(80,520)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-    </comp>
+    <comp lib="0" loc="(80,520)" name="Constant"/>
     <comp lib="0" loc="(80,540)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(80,690)" name="Clock"/>
-    <comp lib="0" loc="(80,730)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-    </comp>
+    <comp lib="0" loc="(80,730)" name="Constant"/>
     <comp lib="0" loc="(80,880)" name="Clock"/>
-    <comp lib="0" loc="(80,920)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-    </comp>
+    <comp lib="0" loc="(80,920)" name="Constant"/>
     <comp lib="5" loc="(520,1090)" name="7-Segment Display"/>
     <comp lib="5" loc="(520,120)" name="7-Segment Display"/>
     <comp lib="5" loc="(520,1300)" name="7-Segment Display"/>
@@ -11129,7 +11117,9 @@ begin
             count_reg &lt;= "0000";  
         elsif rising_edge(clk) then  
             if T = '1' then
-                if count_reg = N - 1 then  
+                if N = "0000" then
+                    count_reg &lt;= "0000";
+                elsif count_reg = N - 1 then  
                     count_reg &lt;= "0000";   
                 else
                     count_reg &lt;= count_reg + 1; 
@@ -11272,7 +11262,9 @@ begin
 
     process(clock, clr)
     begin
-        if clr = '1' then
+        if vetorN = "0000" and vetorM = "0000" then
+            reg_count &lt;= "0000";
+        elsif clr = '1' then
             reg_count &lt;= vetorN; 
         elsif rising_edge(clock) then
             if enable = '1' then
